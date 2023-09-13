@@ -1,0 +1,732 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1688458579591460, "dur": 500677, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688458579591945, "dur": 14887, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688458579606835, "dur": 471864, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688458580078701, "dur": 13435, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688458580092900, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688458579642759, "dur":1099, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458579643869, "dur":121, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688458579644027, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688458579644047, "dur":438, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688458579644513, "dur":586, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458579645099, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580050781, "dur":136, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580050917, "dur":113, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051030, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051033, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051039, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051041, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051049, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051051, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051056, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051057, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051060, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051061, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051065, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051066, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051070, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051071, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051076, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051077, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051080, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051081, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051085, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051086, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051091, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051092, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051097, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051108, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580051130, "dur":4341, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688458579644613, "dur":522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579645136, "dur":5233, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579650383, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688458579650386, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579650465, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688458579650467, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579650523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579651255, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1688458579652933, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688458579652972, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579653013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579653430, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688458579654201, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688458579654253, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579654296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579654303, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688458579655271, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1688458579655327, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579655371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579655375, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1688458579656104, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1688458579656144, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579656173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579656178, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1688458579657078, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579657142, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579657180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579657231, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579663111, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579663172, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579663617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579663952, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579667420, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579667479, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579667525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579667531, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579670661, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579670719, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579670986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579670992, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579672887, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579672948, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579672996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579673002, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579676796, "dur":49158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579725954, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579726074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579726082, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579727053, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579727098, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579727143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579727149, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579728816, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579728868, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579728930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579728935, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579730357, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579730403, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579730448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579730453, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579731542, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579731590, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579731667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579731674, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579732769, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579732816, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579732884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579732890, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579735755, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579735815, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579735933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579736493, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579738426, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579738483, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579738526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579738656, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579745751, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579745807, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579745855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579745863, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688458579746934, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579746986, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579747046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579747434, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579748397, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579748453, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579748508, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579749005, "dur":17047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579766106, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579766158, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579766215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579766343, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579767290, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579767333, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579767372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579767379, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579768421, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579768466, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579768517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579768525, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579769358, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579769413, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579769455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579769462, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579770629, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579770677, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579770720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579770728, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579771844, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579771888, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579771932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579771939, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579772844, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579772895, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579772942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579772949, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579773862, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579773910, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579773952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579773959, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579775454, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579775530, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579775576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579775585, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579776763, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579776809, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579776854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579776862, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579777745, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579777792, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579777835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579777841, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579779379, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579779433, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579779524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579779534, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579784386, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579784450, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579784529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579784538, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":1, "ts":1688458579785636, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688458579785695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579785784, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688458579786935, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688458579786995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688458579787002, "dur":156285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688458580050757, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1688458580050760, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579644612, "dur":527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579645139, "dur":5238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579650382, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1688458579650505, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579650609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579660385, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1688458579663337, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579663393, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579663614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579663944, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579667441, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579667508, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579667577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579667583, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579670198, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579670260, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579670352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579670362, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579672923, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579672975, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579673025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579673030, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579675943, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579675998, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579676074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579676081, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579678204, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579678264, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579678330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579678336, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579680308, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579680357, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579680454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579680460, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579683418, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579683473, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579683573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579683581, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579686886, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579686935, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579686997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579687004, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579689595, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579689648, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579689709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579689773, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579691901, "dur":146746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579838648, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579838712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688458579838721, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688458579841746, "dur":209055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579644632, "dur":512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579645144, "dur":5229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579650383, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1688458579650475, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579650552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579658034, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1688458579659274, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688458579659344, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579659398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579659403, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688458579661918, "dur":67136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688458579729055, "dur":595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579729655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579729660, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688458579730915, "dur":149493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688458579880409, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579880476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688458579880483, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688458579881393, "dur":169399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579644689, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579645148, "dur":5244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579650392, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688458579650526, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579650699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579665235, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688458579667524, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579667597, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579667730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579667735, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579670759, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579670840, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579670992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579670997, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579672592, "dur":171784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579844377, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579844488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688458579844501, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688458579846581, "dur":204218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579644710, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579645151, "dur":5223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579650382, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1688458579650513, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579650626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579663050, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1688458579665462, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579665546, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579665834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579665985, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579668337, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579668394, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579668466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579668472, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579672734, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579672791, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579672834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579672841, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579675463, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579675517, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579675567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579675576, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579677241, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579677296, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579677405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579677410, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579679225, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579679344, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579679401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579679406, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579681753, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579681817, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579681890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579681895, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579684554, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579684603, "dur":1201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579685809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579685851, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579689594, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579689643, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579689731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579689737, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579691468, "dur":93041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579784510, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579784577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579784583, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1688458579785996, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688458579786052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579786060, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1688458579787979, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688458579788035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579788041, "dur":8904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688458579796998, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688458579797051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579797058, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1688458579800831, "dur":12707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1688458579813538, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579813589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579813595, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1688458579815440, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1688458579815524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579815529, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1688458579819045, "dur":13022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1688458579832067, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579832153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1688458579832160, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1688458579833471, "dur":217307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579644736, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579645156, "dur":5216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579650383, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688458579650511, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579650629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579664164, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1688458579665560, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579666555, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579666807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579666816, "dur":5815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579672693, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579672745, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579672864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579672869, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579675931, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579675980, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579676104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579676109, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579677762, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579677823, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579677968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579677974, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579680874, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579680953, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579681125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579681131, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579684441, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579684496, "dur":1310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579685841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579685849, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579689769, "dur":108593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579798363, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579798511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579798524, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1688458579801070, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579801129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579801137, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579803274, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1688458579803325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579803332, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1688458579804599, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579804653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579804662, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579809126, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1688458579809206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579809213, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1688458579811061, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579811115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579811123, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579812928, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1688458579812981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579812985, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1688458579814679, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579814734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1688458579814742, "dur":5676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1688458579820489, "dur":230292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579644805, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579645159, "dur":5217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579650384, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688458579650490, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579650601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579660064, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1688458579662508, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579662583, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579663630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579664013, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579667026, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579667174, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579667267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579667273, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579668619, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579668666, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579668734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579668739, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579671681, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579671732, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579671796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579671803, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579675829, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579675881, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579676092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579676098, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579677828, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579677876, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579677966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579677972, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579679795, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579679884, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579679944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579679950, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579682932, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579682986, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579683056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579683062, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579684459, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579684510, "dur":1295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579685810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579685853, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579690307, "dur":96753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579787060, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579787122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579787128, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1688458579788791, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688458579788843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579788850, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1688458579790775, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688458579790828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579790837, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1688458579797041, "dur":15830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1688458579812872, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579812934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579812942, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1688458579814908, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688458579814961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1688458579814966, "dur":8131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1688458579823148, "dur":227631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579644831, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579645162, "dur":5218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579650382, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688458579650477, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579650586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579658775, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1688458579662136, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1688458579662198, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579662258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579663093, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1688458579667909, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579667967, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579668041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579668069, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579671202, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579671259, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579671330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579671335, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579673198, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579673397, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579673739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579673746, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579676561, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579676610, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579676671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579676700, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579678149, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579678199, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579678328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579678335, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579681981, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579682029, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579682144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579682149, "dur":7554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579690106, "dur":145817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579835923, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579836128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1688458579836142, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1688458579838736, "dur":212044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579644864, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579645165, "dur":5219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579650385, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1688458579650494, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579650592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579659303, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1688458579663024, "dur":69557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579732582, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579732641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579732650, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579733616, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579733663, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579733709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579733715, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579734729, "dur":151551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579886280, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579886346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1688458579886352, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1688458579887308, "dur":163475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579644888, "dur":280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579645168, "dur":5215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579650384, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1688458579650478, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579650569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579658124, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1688458579662184, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579662258, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579662425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579663769, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579667453, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579667512, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579667591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579667597, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579670526, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579670584, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579670665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579670671, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579672784, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579672837, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579672900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579672905, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579675502, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579675561, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579675626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579675632, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579678311, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579678362, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579678427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579678433, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579680654, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579680703, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579680793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579680799, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579683472, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579683525, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579683610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579683615, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579687125, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579687173, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579687242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579687247, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579689619, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579689671, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579689791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579689800, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579691288, "dur":155630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579846919, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579846997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1688458579847042, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1688458579849726, "dur":201071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579644949, "dur":222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579645171, "dur":5208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579650383, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1688458579650463, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579650541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579652003, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1688458579652933, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1688458579652976, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579653020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579653300, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1688458579654070, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1688458579654121, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579654162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579654223, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1688458579655147, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1688458579655195, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579655257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579655265, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1688458579656275, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579656320, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579656359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579656509, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579657670, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579657743, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579657789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579657796, "dur":19070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579676923, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579677042, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579677099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579677104, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579678900, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579678949, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579679001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579679034, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579682020, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579682063, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579682140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579682146, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579685301, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579685505, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579685809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579685849, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579689727, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579689781, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579689827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579689832, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579691540, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579691589, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579691635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579691663, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579692744, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579692799, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579692847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579692854, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579693825, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579693870, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579693914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579693924, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579697640, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579697687, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579697736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579697744, "dur":4812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579702607, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579702658, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579702710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579702718, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579703821, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579703865, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579703940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579703948, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579705150, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579705195, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579705241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579705248, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579706860, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579706906, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579706951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579706958, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579707890, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579707932, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579707972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579707978, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579708940, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579708990, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579709035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579709041, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579709928, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579709973, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579710016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579710022, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579710898, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579710942, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579711006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579711012, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579711996, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579712041, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579712083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579712090, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579713268, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579713311, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579713354, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579713366, "dur":15082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579728596, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579728676, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579728724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579728731, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579729979, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579730024, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579730069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579730074, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579731213, "dur":131511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579862725, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579862808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1688458579862816, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":11, "ts":1688458579864761, "dur":186033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579645003, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579645173, "dur":5205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579650382, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1688458579650513, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579650616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579662010, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1688458579664605, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579664666, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579664923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579665966, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579668317, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579668367, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579668460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579668466, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579671288, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579671472, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579672083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579672089, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579676967, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579677020, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579677065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579677071, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579678908, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579678961, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579679034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579679041, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579681190, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579681234, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579681365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579681370, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579683772, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579683826, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579683875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579683882, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579686915, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579687115, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579689472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579689482, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579692007, "dur":236501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579928509, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579928578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1688458579928584, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OEM/Desktop/ZomBox(Beta)/Zombox_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1688458579929706, "dur":121087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688458580056691, "dur":2941, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688458580092979, "dur": 2079, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688458580092891, "dur": 2198, "ph": "X", "name": "Write chrome-trace events", "args": {} },
