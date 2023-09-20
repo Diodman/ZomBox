@@ -74,7 +74,7 @@ public class Zombie : MonoBehaviour
     public void Shot()
     {
         RaycastHit hit;
-        if (Physics.Raycast(barel.position, barel.forward, out hit, 1)) // Попробовать поменять 1 на что-то другое, т.к. это луч, и если луч не попадает в игрока, урон не регистрирует.
+        if (Physics.Raycast(barel.position, barel.forward, out hit, 3)) // Попробовать поменять 1 на что-то другое, т.к. это луч, и если луч не попадает в игрока, урон не регистрирует.
         {
             if (hit.transform != null)
             {
