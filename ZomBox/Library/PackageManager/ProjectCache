@@ -27,12 +27,12 @@ m_LocalPackages:
       ticks: 0
     m_Hash: 0
   - m_FilePath: C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\SteamVR\OpenVRUnityXRPackage\Editor\com.valvesoftware.unity.openvr-1.1.4.tgz
-    m_PathExists: 1
+    m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638308078906302715
-    m_Hash: 2919789393
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox/Packages
 m_EditorVersion: 2021.3.27f1 (ca3ffb99bcc6)
 m_ResolvedPackages:
@@ -747,6 +747,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -756,6 +757,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 3.2.0-pre.5
+    - 3.2.0-pre.6
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui

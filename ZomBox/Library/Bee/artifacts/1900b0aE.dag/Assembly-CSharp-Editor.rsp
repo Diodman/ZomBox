@@ -111,7 +111,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
+-r:"Assets/Bibliotek/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -371,8 +371,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Editor/SlimUIWindow.cs"
-"Assets/KriptoFX/MuzzleFlashes/Shaders/Editor/FPS_UberDecalGUI.cs"
+-analyzer:"Assets/Bibliotek/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
+"Assets/Musor/Editor/SlimUIWindow.cs"
+"Assets/Musor/KriptoFX/MuzzleFlashes/Shaders/Editor/FPS_UberDecalGUI.cs"
 -langversion:9.0
 
 /deterministic
