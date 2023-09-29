@@ -18,6 +18,7 @@ public class Zombie : MonoBehaviour
     private float attackTimer = 0f;
     public float attackInterval = 2f;
     private bool canAttack = true; // Флаг, позволяющий атаковать
+    private float playerScore = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,11 @@ public class Zombie : MonoBehaviour
         { 
           return;
         }
+        playerScore = HPManeger.score; // Остановка зомби
+        if (playerScore >= 1000) 
+        {
+            return;
+        }
         navMeshAgent.SetDestination(player.transform.position);
         attackTimer += Time.deltaTime;
         if (canAttack)
@@ -47,6 +53,7 @@ public class Zombie : MonoBehaviour
             Shot();
             attackTimer = 0f;
         }
+
     }
     public void Kill()
     {
@@ -74,7 +81,7 @@ public class Zombie : MonoBehaviour
     public void Shot()
     {
         RaycastHit hit;
-        if (Physics.Raycast(barel.position, barel.forward, out hit, 3)) // Попробовать поменять 1 на что-то другое, т.к. это луч, и если луч не попадает в игрока, урон не регистрирует.
+        if (Physics.Raycast(barel.position, barel.forward, out hit, 3))
         {
             if (hit.transform != null)
             {
