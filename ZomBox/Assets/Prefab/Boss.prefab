@@ -333,6 +333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barel: {fileID: 0}
   attackInterval: 2
+  health: 500
+  droppedItemPrefab: {fileID: 0}
 --- !u!136 &-5672500923976057722
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -344,9 +346,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.75
-  m_Height: 1
+  m_Height: 2.2979598
   m_Direction: 1
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Center: {x: 0, y: 0.8989799, z: 0}
 --- !u!82 &-1766084662764945078
 AudioSource:
   m_ObjectHideFlags: 0

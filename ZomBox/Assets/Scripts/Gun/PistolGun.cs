@@ -49,6 +49,8 @@ public class PistolGun : MonoBehaviour
             if (hit.transform != null)
             {
                 var zombie = hit.transform.GetComponent<Zombie>();
+                var boss = hit.transform.GetComponent<Boss>();
+                var player = hit.transform.GetComponent<Player>();
                 if (zombie != null)
                 {
                     if (!hitCountDictionary.ContainsKey(hit.transform.gameObject))
@@ -64,20 +66,21 @@ public class PistolGun : MonoBehaviour
                             ScoreManeger.score += 15;
                             Destroy(hit.transform.gameObject, 5);
                         }
-                        else
-                        {
-                            var boss = hit.transform.GetComponent<Boss>();
-                            if (boss != null)
-                            {
-                                // Наносим урон боссу
-                                boss.TakeDamage(33f); // Пример фиксированного урона по боссу
-                                // Проверка если у него хп и вызываем метод килл
-                                if (boss.health <= 0) 
-                                {
-                                    boss.Kill();
-                                }
-                            }
-                        }
+                    }
+                }
+                else if (player != null)
+                {
+                    player.GameOverPlayer();
+                    HPManeger.score -= 15;
+                }
+                else if (boss != null)
+                {
+                    // Наносим урон боссу
+                    boss.TakeDamage(33f); // Пример фиксированного урона по боссу
+                                          // Проверка если у него хп и вызываем метод килл
+                    if (boss.health <= 0)
+                    {
+                        boss.Kill();
                     }
                 }
             }

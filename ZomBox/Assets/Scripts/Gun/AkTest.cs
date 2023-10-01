@@ -13,8 +13,6 @@ public class AkTest : MonoBehaviour
     public Transform barrel;
     public ParticleSystem muzzleFlash;
 
-    public Boss boss;
-
     private Dictionary<GameObject, int> hitCountDictionary;
     private bool isShooting = false;
     public float fireRate = 0.1f; // Время задержки между выстрелами
@@ -76,6 +74,8 @@ public class AkTest : MonoBehaviour
             if (hit.transform != null)
             {
                 var zombie = hit.transform.GetComponent<Zombie>();
+                var boss = hit.transform.GetComponent<Boss>();
+                var player = hit.transform.GetComponent<Player>();
                 if (zombie != null)
                 {
                     if (!hitCountDictionary.ContainsKey(hit.transform.gameObject))
@@ -91,24 +91,25 @@ public class AkTest : MonoBehaviour
                             ScoreManeger.score += 10;
                             Destroy(hit.transform.gameObject, 5);
                         }
-                        else
-                        {
-                            var boss = hit.transform.GetComponent<Boss>();
-                            if (boss != null)
-                            {
-                                // Наносим урон боссу
-                                boss.TakeDamage(50f); // Пример фиксированного урона по боссу
-                                // Проверка если у него хп и вызываем метод килл
-                                if (boss.health <= 0)
-                                {
-                                    boss.Kill();
-                                }
-                            }
-                        }
                     }
                 }
+                else if (player != null)
+                {
+                    player.GameOverPlayer();
+                    HPManeger.score -= 25;
+                }
+                else if (boss != null)
+                {
+                    // Наносим урон боссу
+                    boss.TakeDamage(50f); // Пример фиксированного урона по боссу
+                                          // Проверка если у него хп и вызываем метод килл
+                    if (boss.health <= 0)
+                    {
+                       boss.Kill();
+                    }
+                }
+
             }
         }
     }
-
 }
