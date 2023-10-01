@@ -67,10 +67,6 @@ public class Zombie : MonoBehaviour
             }
     }
 
-    //private IEnumerator Prov()
-    //{
-    //        yield return new WaitForSeconds(fireRate); // Ждем заданное время
-    //}
     private IEnumerator AttackDelay()
     {
         canAttack = false; // Запрещаем атаку

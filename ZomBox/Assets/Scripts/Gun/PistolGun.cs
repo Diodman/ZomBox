@@ -13,11 +13,16 @@ public class PistolGun : MonoBehaviour
     public Transform barel;
     public ParticleSystem muzleFlash;
 
-    private Dictionary<GameObject, int> hitCountDictionary;
+    public Boss boss;
+    // private float bossDamage = 33; // Фиксированный урон по боссу
+    private Dictionary<GameObject, int> hitCountDictionary; // Zombie
+
+
+    // Нужно добавить еще один объект босса в каждый скрипт 
 
     private void Start()
     {
-        interactable= GetComponent<Interactable>();
+        interactable = GetComponent<Interactable>();
         hitCountDictionary = new Dictionary<GameObject, int>();
     }
 
@@ -39,25 +44,39 @@ public class PistolGun : MonoBehaviour
         muzleFlash.Play();
         audioSource.Play();
         RaycastHit hit;
-        if (Physics.Raycast(barel.position, barel.forward, out hit, 300)) 
+        if (Physics.Raycast(barel.position, barel.forward, out hit, 300))
         {
             if (hit.transform != null)
             {
                 var zombie = hit.transform.GetComponent<Zombie>();
                 if (zombie != null)
                 {
-                    if(!hitCountDictionary.ContainsKey(hit.transform.gameObject)) 
+                    if (!hitCountDictionary.ContainsKey(hit.transform.gameObject))
                     {
                         hitCountDictionary.Add(hit.transform.gameObject, 1);
                     }
                     else
                     {
-                        hitCountDictionary[hit.transform.gameObject]++;
+                        hitCountDictionary[hit.transform.gameObject]++; // Zombie
                         if (hitCountDictionary[hit.transform.gameObject] >= 3)
                         {
                             zombie.Kill();
                             ScoreManeger.score += 15;
                             Destroy(hit.transform.gameObject, 5);
+                        }
+                        else
+                        {
+                            var boss = hit.transform.GetComponent<Boss>();
+                            if (boss != null)
+                            {
+                                // Наносим урон боссу
+                                boss.TakeDamage(33f); // Пример фиксированного урона по боссу
+                                // Проверка если у него хп и вызываем метод килл
+                                if (boss.health <= 0) 
+                                {
+                                    boss.Kill();
+                                }
+                            }
                         }
                     }
                 }
@@ -65,3 +84,5 @@ public class PistolGun : MonoBehaviour
         }
     }
 }
+
+

@@ -20,6 +20,11 @@ public class Boss : MonoBehaviour
     private bool canAttack = true; // Флаг, позволяющий атаковать
     private float playerScore = 0;
 
+    public float health = 500;
+
+    public GameObject droppedItemPrefab; // Префаб выпадающего объекта (например, "сундук")
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -94,6 +99,17 @@ public class Boss : MonoBehaviour
                     HPManeger.score -= 40;
                 }
             }
+        }
+    }
+
+    // Нанесение урона боссу
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Kill();
         }
     }
 }

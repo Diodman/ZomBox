@@ -13,6 +13,8 @@ public class AkTest : MonoBehaviour
     public Transform barrel;
     public ParticleSystem muzzleFlash;
 
+    public Boss boss;
+
     private Dictionary<GameObject, int> hitCountDictionary;
     private bool isShooting = false;
     public float fireRate = 0.1f; // Время задержки между выстрелами
@@ -88,6 +90,20 @@ public class AkTest : MonoBehaviour
                             zombie.Kill();
                             ScoreManeger.score += 10;
                             Destroy(hit.transform.gameObject, 5);
+                        }
+                        else
+                        {
+                            var boss = hit.transform.GetComponent<Boss>();
+                            if (boss != null)
+                            {
+                                // Наносим урон боссу
+                                boss.TakeDamage(50f); // Пример фиксированного урона по боссу
+                                // Проверка если у него хп и вызываем метод килл
+                                if (boss.health <= 0)
+                                {
+                                    boss.Kill();
+                                }
+                            }
                         }
                     }
                 }
