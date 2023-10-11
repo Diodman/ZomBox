@@ -7782,8 +7782,9 @@ GameObject:
   m_Component:
   - component: {fileID: 439252576}
   - component: {fileID: 439252575}
+  - component: {fileID: 439252577}
   m_Layer: 0
-  m_Name: Spawn 1 (1)
+  m_Name: spawn2
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7818,6 +7819,20 @@ Transform:
   m_Father: {fileID: 357738285}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -34.208, z: 0}
+--- !u!114 &439252577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439252574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c67dee463f4284fbc2daebb68b98a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Period: 0
+  BossEnemy: {fileID: 1342959200176554030, guid: 71c2b86e4d7bc49b894c67d7b7a7b83f, type: 3}
 --- !u!1001 &444635310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15130,7 +15145,7 @@ GameObject:
   - component: {fileID: 934356531}
   - component: {fileID: 934356530}
   m_Layer: 0
-  m_Name: Spawn 1 (2)
+  m_Name: spawn3
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -25679,7 +25694,7 @@ GameObject:
   - component: {fileID: 1487409383}
   - component: {fileID: 1487409382}
   m_Layer: 0
-  m_Name: Spawn 1
+  m_Name: spawn1
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -30193,14 +30208,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768384242}
-  m_LocalRotation: {x: 0.08757513, y: -0, z: -0, w: 0.99615794}
-  m_LocalPosition: {x: -16.025951, y: 5.503066, z: 47.988316}
+  m_LocalRotation: {x: -0.0129335, y: -0, z: -0, w: 0.99991643}
+  m_LocalPosition: {x: -16.025951, y: 4.839, z: 48.882}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 10.048, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.482, y: 0, z: 0}
 --- !u!65 &1768384245
 BoxCollider:
   m_ObjectHideFlags: 0

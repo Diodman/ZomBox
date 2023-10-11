@@ -38,15 +38,15 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dead)
+        /*if (dead)
         {
             // Проверка, если босс мертв, создаем ключ на позиции смерти
             Instantiate(droppedItemPrefab, deathPosition, Quaternion.identity); 
             return;
-        }
+        }*/
 
         // Проверяем, достиг ли игрок счета 1000 для создания зомби-босса
-        if (ScoreManeger.score <= 1000)
+        if (ScoreManeger.score <= 100)
         {
             return;
         }
@@ -74,6 +74,7 @@ public class Boss : MonoBehaviour
             deathPosition = transform.position; // Сохранение позиции смерти босса
             Vector3 keyDropPosition = deathPosition - Vector3.up; // Позиция, где ключ выпадет ниже босса
             Instantiate(droppedItemPrefab, keyDropPosition, Quaternion.identity); // Создание ключа
+            Instantiate(droppedItemPrefab, deathPosition, Quaternion.identity);
             Destroy(gameObject, 3);
         }
     }

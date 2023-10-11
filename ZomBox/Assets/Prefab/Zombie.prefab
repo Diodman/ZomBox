@@ -458,6 +458,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barel: {fileID: 4008347006925230540}
   attackInterval: 2
+  spawn1: {fileID: 0}
+  spawn2: {fileID: 0}
+  spawn3: {fileID: 0}
 --- !u!136 &1077224023181096705
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -596,7 +599,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4674444224583840905}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9dd43889d8e82b24cbb75a13e93807ff, type: 3}
   m_Name: 

@@ -19,6 +19,9 @@ public class Zombie : MonoBehaviour
     public float attackInterval = 2f;
     private bool canAttack = true;
     private bool canSpawn = true;
+    public GameObject spawn1;
+    public GameObject spawn2;
+    public GameObject spawn3;
 
     // Start is called before the first frame update
     void Start()
@@ -38,10 +41,13 @@ public class Zombie : MonoBehaviour
             return;
         }
 
-        if (ScoreManeger.score >= 1000)
+        if (ScoreManeger.score >= 10)
         {
             canSpawn = false;
             Kill();
+            spawn1.SetActive(false);
+            spawn2.SetActive(false);
+            spawn3.SetActive(false);
             return;
         }
         navMeshAgent.SetDestination(player.transform.position);
@@ -64,7 +70,7 @@ public class Zombie : MonoBehaviour
                 dead = true;
                 Destroy(capsuleCollider);
                 Destroy(navMeshAgent);
-                animator.SetTrigger("dead");
+                animator.SetTrigger("die");
                 Destroy(gameObject, 5);
             }
     }
@@ -79,7 +85,7 @@ public class Zombie : MonoBehaviour
     public void Shot()
     {
         RaycastHit hit;
-        if (Physics.Raycast(barel.position, barel.forward, out hit, 3))
+        if (Physics.Raycast(barel.position, barel.forward, out hit, 1))
         {
             if (hit.transform != null)
             {
