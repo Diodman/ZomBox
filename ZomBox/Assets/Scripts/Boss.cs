@@ -18,11 +18,11 @@ public class Boss : MonoBehaviour
     private float attackTimer = 0f;
     public float attackInterval = 2f;
     private bool canAttack = true; // Флаг, позволяющий атаковать
-    private float playerScore = 0;
 
     public float health = 500;
 
-    public GameObject droppedItemPrefab; // Префаб выпадающего объекта (например, "сундук")
+    public GameObject droppedItemPrefab; // Префаб выпадающего ключа
+    private Vector3 deathPosition; // Позиция смерти босса
 
 
     // Start is called before the first frame update
@@ -40,13 +40,13 @@ public class Boss : MonoBehaviour
     {
         if (dead)
         {
+            // Проверка, если босс мертв, создаем ключ на позиции смерти
+            Instantiate(droppedItemPrefab, deathPosition, Quaternion.identity); 
             return;
         }
-        // Обновляем счет игрока
-        playerScore = HPManeger.score;
 
         // Проверяем, достиг ли игрок счета 1000 для создания зомби-босса
-        if (playerScore <= 1000)
+        if (ScoreManeger.score <= 1000)
         {
             return;
         }
@@ -71,6 +71,9 @@ public class Boss : MonoBehaviour
             Destroy(capsuleCollider);
             Destroy(navMeshAgent);
             animator.SetTrigger("dead");
+            deathPosition = transform.position; // Сохранение позиции смерти босса
+            Vector3 keyDropPosition = deathPosition - Vector3.up; // Позиция, где ключ выпадет ниже босса
+            Instantiate(droppedItemPrefab, keyDropPosition, Quaternion.identity); // Создание ключа
             Destroy(gameObject, 3);
         }
     }

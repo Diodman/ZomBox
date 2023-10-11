@@ -17,8 +17,8 @@ public class Zombie : MonoBehaviour
 
     private float attackTimer = 0f;
     public float attackInterval = 2f;
-    private bool canAttack = true; // ‘лаг, позвол€ющий атаковать
-    private float playerScore = 0;
+    private bool canAttack = true;
+    private bool canSpawn = true;
 
     // Start is called before the first frame update
     void Start()
@@ -33,13 +33,15 @@ public class Zombie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dead)
-        { 
-          return;
-        }
-        playerScore = HPManeger.score; // ќстановка зомби
-        if (playerScore >= 1000) 
+        if (dead || (canSpawn == false))
         {
+            return;
+        }
+
+        if (ScoreManeger.score >= 1000)
+        {
+            canSpawn = false;
+            Kill();
             return;
         }
         navMeshAgent.SetDestination(player.transform.position);

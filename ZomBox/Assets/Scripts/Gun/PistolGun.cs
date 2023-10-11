@@ -13,7 +13,6 @@ public class PistolGun : MonoBehaviour
     public Transform barel;
     public ParticleSystem muzleFlash;
 
-    public Boss boss;
     // private float bossDamage = 33; // Фиксированный урон по боссу
     private Dictionary<GameObject, int> hitCountDictionary; // Zombie
 
