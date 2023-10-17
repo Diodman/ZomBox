@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 using Valve.VR.InteractionSystem;
+using UnityEngine;
 
 public class DranGun : MonoBehaviour
 {
     public Transform barel;
-    private Interactable interactable;
+    public int damageAmount = 10;  // Урон, который наносится объектам
 
     private void Start()
     {
-        interactable = GetComponent<Interactable>();
+
     }
 
     private void Update()
@@ -53,22 +54,20 @@ public class DranGun : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    
+    private void OnTriggerEnter(Collider other)
     {
-        // Получаем объект, с которым произошла коллизия
-        GameObject collisionObject = collision.gameObject;
-
-        // Проверяем, что объект имеет компонент для получения урона
-        DamageReceiver damageReceiver = collisionObject.GetComponent<DamageReceiver>();
-
-        if (damageReceiver != null)
+        // Проверяем, является ли объект сталкивающийся объект целью для нанесения урона
+        if (other.CompareTag("Enemy"))
         {
-            var player = GetComponent<Player>();
-            // Вызываем метод для нанесения урона объекту
-            if (player != null)
+            // Получаем компонент сценария объекта, на который наносится урон
+            EnemyController enemyController = other.GetComponent<EnemyController>();
+
+            // Проверяем, есть ли компонент управления врагом
+            if (enemyController != null)
             {
-                player.GameOverPlayer();
-                HPManeger.score -= 50;
+                // Вызываем метод нанесения урона у врага
+                enemyController.TakeDamage(damageAmount);
             }
         }
     }

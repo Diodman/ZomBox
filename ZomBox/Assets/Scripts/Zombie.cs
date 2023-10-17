@@ -13,6 +13,11 @@ public class Zombie : MonoBehaviour
     Player player;
     public Transform barel;
 
+    bool run = true;
+    bool attack = true;
+
+    public float stoppingDistance = 2f;
+
     private Dictionary<GameObject, int> hitCountDictionary;
 
     private float attackTimer = 0f;
@@ -36,7 +41,7 @@ public class Zombie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dead || (canSpawn == false))
+        if(dead || (canSpawn == false))
         {
             return;
         }
@@ -50,7 +55,20 @@ public class Zombie : MonoBehaviour
             spawn3.SetActive(false);
             return;
         }
-        navMeshAgent.SetDestination(player.transform.position);
+
+        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        if (distanceToPlayer <= stoppingDistance)
+        {
+            navMeshAgent.isStopped = true; // Останавливаем NavMeshAgent
+            animator.SetBool("isRunning", false);
+        }
+        else
+        {
+            navMeshAgent.isStopped = false; // Возобновляем движение, если расстояние больше stoppingDistance
+            navMeshAgent.SetDestination(player.transform.position);
+            animator.SetBool("isRunning", true);
+        }
+
         attackTimer += Time.deltaTime;
         if (canAttack)
         {
@@ -84,6 +102,7 @@ public class Zombie : MonoBehaviour
     }
     public void Shot()
     {
+        animator.SetTrigger("attack");
         RaycastHit hit;
         if (Physics.Raycast(barel.position, barel.forward, out hit, 1))
         {
