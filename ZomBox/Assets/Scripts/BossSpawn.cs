@@ -16,7 +16,7 @@ public class BossSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScoreManeger.score >= 10 && k == 0)
+        if (ScoreManeger.score >= 1000 && k == 0)
         {
             Instantiate(BossEnemy, transform.position, transform.rotation);
             k = k + 1;

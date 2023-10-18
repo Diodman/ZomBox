@@ -46,7 +46,7 @@ public class Zombie : MonoBehaviour
             return;
         }
 
-        if (ScoreManeger.score >= 10)
+        if (ScoreManeger.score >= 1000)
         {
             canSpawn = false;
             Kill();
@@ -61,6 +61,11 @@ public class Zombie : MonoBehaviour
         {
             navMeshAgent.isStopped = true; // Останавливаем NavMeshAgent
             animator.SetBool("isRunning", false);
+            if (canAttack == true) 
+            {
+                animator.SetTrigger("attack");
+            }
+              
         }
         else
         {
@@ -102,7 +107,6 @@ public class Zombie : MonoBehaviour
     }
     public void Shot()
     {
-        animator.SetTrigger("attack");
         RaycastHit hit;
         if (Physics.Raycast(barel.position, barel.forward, out hit, 1))
         {

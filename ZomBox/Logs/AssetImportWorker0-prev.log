@@ -15,7 +15,7 @@ C:/Users/stalc/Desktop/ZomBox/ZomBox
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62759
+49246
 Successfully changed project path to: C:/Users/stalc/Desktop/ZomBox/ZomBox
 C:/Users/stalc/Desktop/ZomBox/ZomBox
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/stalc/Desktop/ZomBox/ZomBox
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14608] Host "[IP] 172.27.0.97 [Port] 0 [Flags] 2 [Guid] 1590314472 [EditorId] 1590314472 [Version] 1048832 [Id] WindowsEditor(7,Diodman) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19900] Host "[IP] 172.27.0.97 [Port] 0 [Flags] 2 [Guid] 1097446338 [EditorId] 1097446338 [Version] 1048832 [Id] WindowsEditor(7,Diodman) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14608] Host "[IP] 172.27.0.97 [Port] 0 [Flags] 2 [Guid] 1590314472 [EditorId] 1590314472 [Version] 1048832 [Id] WindowsEditor(7,Diodman) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19900] Host "[IP] 172.27.0.97 [Port] 0 [Flags] 2 [Guid] 1097446338 [EditorId] 1097446338 [Version] 1048832 [Id] WindowsEditor(7,Diodman) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 152.50 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 150.63 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -67,94 +67,152 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005236 seconds.
+Registered in 0.006467 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 357 ms
-Refreshing native plugins compatible for Editor in 118.26 ms, found 6 plugins.
+Android Extension - Scanning For ADB Devices 354 ms
+Refreshing native plugins compatible for Editor in 125.84 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
+- Completed reload, in  1.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1235ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1011ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (144ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (761ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (824ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (478ms)
+				InitializePlatformSupportModulesInManaged (490ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005326 seconds.
+Registered in 0.006846 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 4.99 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
+- Completed reload, in  1.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1284ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1524ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (987ms)
-			LoadAssemblies (122ms)
+		EndReloadAssembly (1209ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
+			SetupTypeCache (391ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (480ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3481 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (49.1 KB). Loaded Objects now: 3968.
+Memory consumption went from 139.8 MB to 139.7 MB.
+Total: 4.102500 ms (FindLiveObjects: 0.360800 ms CreateObjectMapping: 0.150100 ms MarkObjects: 3.421900 ms  DeleteObjects: 0.167500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1510ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (426ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.54 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (49.3 KB). Loaded Objects now: 3967.
-Memory consumption went from 139.7 MB to 139.6 MB.
-Total: 3.354600 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.759600 ms  DeleteObjects: 0.151100 ms)
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 3971.
+Memory consumption went from 134.6 MB to 134.6 MB.
+Total: 4.969200 ms (FindLiveObjects: 0.436800 ms CreateObjectMapping: 0.200400 ms MarkObjects: 4.287400 ms  DeleteObjects: 0.042200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,131 +227,245 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 363365.322311 seconds.
-  path: Assets/Prefab/Zombie.prefab
-  artifactKey: Guid(3172f62c62d512148b934f4733d32c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Zombie.prefab using Guid(3172f62c62d512148b934f4733d32c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152328b2593c85b95dc500f54af46142') in 0.187187 seconds 
+  Time since last request: 407437.242255 seconds.
+  path: Assets/Object/Poys/PlacementSpot.cs
+  artifactKey: Guid(2606669756d867b458a7ea3ccd4d520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Poys/PlacementSpot.cs using Guid(2606669756d867b458a7ea3ccd4d520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befd3fc62957fe8452d623f7916f658a') in 0.049286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1495ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3976.
+Memory consumption went from 134.6 MB to 134.6 MB.
+Total: 3.992200 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.113400 ms MarkObjects: 3.506400 ms  DeleteObjects: 0.036300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3980.
+Memory consumption went from 134.6 MB to 134.6 MB.
+Total: 3.561400 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.285500 ms MarkObjects: 2.845100 ms  DeleteObjects: 0.041000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.118613 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/HandColliderLeft.prefab
-  artifactKey: Guid(73f816dd3537a4c44988f340a5da70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/HandColliderLeft.prefab using Guid(73f816dd3537a4c44988f340a5da70b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce1d6b554e992bb2b1ababe11d82aee') in 0.005033 seconds 
+  Time since last request: 372.123371 seconds.
+  path: Assets/Object/Poys/PlacementSpot.cs
+  artifactKey: Guid(2606669756d867b458a7ea3ccd4d520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/Poys/PlacementSpot.cs using Guid(2606669756d867b458a7ea3ccd4d520f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a169baff1114dc888e7b0a3540f0f936') in 0.009783 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel.prefab
-  artifactKey: Guid(8ade79fed86bbd141926d1cd94c98457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel.prefab using Guid(8ade79fed86bbd141926d1cd94c98457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.0 KB). Loaded Objects now: 3984.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 5.546400 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.250800 ms MarkObjects: 4.833300 ms  DeleteObjects: 0.063300 ms)
 
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: 'dcacc21df84de6ccd68e62a2dde9c866') in 0.061245 seconds 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel Slim.prefab
-  artifactKey: Guid(837f93beb9a614743ae3a2c0ada7c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel Slim.prefab using Guid(837f93beb9a614743ae3a2c0ada7c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stalc\Desktop\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1340ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.31 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (22.1 KB). Loaded Objects now: 3988.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 4.191700 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.170700 ms MarkObjects: 3.397300 ms  DeleteObjects: 0.040800 ms)
 
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '57c7b5de55f1a838b422d66e93654241') in 0.012956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Alien.prefab
-  artifactKey: Guid(d8d1e5711b2c77d48ac96e769aaff27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/LeftRenderModel Alien.prefab using Guid(d8d1e5711b2c77d48ac96e769aaff27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '485abdb39596045deebc10aab75ca73f') in 0.011773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel Alien.prefab
-  artifactKey: Guid(b3cb7e5f55e66cb40aea59db72c62365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModel Alien.prefab using Guid(b3cb7e5f55e66cb40aea59db72c62365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '00a46411fe8cabcbfeabc503d5f7d053') in 0.015628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModelFloppy.prefab
-  artifactKey: Guid(4c5fea2300124fe49a30168e29627064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Core/Prefabs/RightRenderModelFloppy.prefab using Guid(4c5fea2300124fe49a30168e29627064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitializeCopy (System.String newActionPath, Valve.VR.SteamVR_Action_Source_Map newData) [0x00007] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:207 
-  at Valve.VR.SteamVR_Action.GetCopy[CreateType] () [0x0000c] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:326 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionSetName, System.String actionName, System.Boolean caseSensitive, System.Boolean returnNulls) [0x00012] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:634 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionName, System.Boolean caseSensitive) [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:715 
-  at Valve.VR.InteractionSystem.Sample.FloppyHand..ctor () [0x0000b] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\InteractionSystem\Samples\Scripts\FloppyHand.cs:12 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Action.cs Line: 207)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: 'f6adee19b28b993a455a944f76370db9') in 0.018544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.310674 seconds.
-  path: Assets/Prefab/Player.prefab
-  artifactKey: Guid(2e66c7c482fd4b742be099bc823457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Player.prefab using Guid(2e66c7c482fd4b742be099bc823457fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\stalc\Desktop\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '5aeaab54286855c5fb8f05e51eea1afd') in 0.084934 seconds 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

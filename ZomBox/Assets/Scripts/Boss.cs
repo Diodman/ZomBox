@@ -46,7 +46,7 @@ public class Boss : MonoBehaviour
         }*/
 
         // Проверяем, достиг ли игрок счета 1000 для создания зомби-босса
-        if (ScoreManeger.score <= 100)
+        if (ScoreManeger.score <= 1000)
         {
             return;
         }

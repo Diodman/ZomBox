@@ -18,7 +18,7 @@ public class Spawn : MonoBehaviour
     void Update()
     {
         TimeUntilNextSpawn -= Time.deltaTime;
-        if (TimeUntilNextSpawn <= 0.0f && ScoreManeger.score < 10)
+        if (TimeUntilNextSpawn <= 0.0f && ScoreManeger.score < 1000)
         {
             TimeUntilNextSpawn = Period;
             Instantiate(Enemy, transform.position, transform.rotation);
