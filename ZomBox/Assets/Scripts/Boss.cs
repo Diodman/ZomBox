@@ -13,6 +13,11 @@ public class Boss : MonoBehaviour
     Player player;
     public Transform barel;
 
+    bool run = true;
+    bool attack = true;
+
+    public float stoppingDistance = 2f;
+
     private Dictionary<GameObject, int> hitCountDictionary;
 
     private float attackTimer = 0f;
@@ -46,6 +51,24 @@ public class Boss : MonoBehaviour
         }*/
 
         // Проверяем, достиг ли игрок счета 1000 для создания зомби-босса
+        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        if (distanceToPlayer <= stoppingDistance)
+        {
+            navMeshAgent.isStopped = true; // Останавливаем NavMeshAgent
+            animator.SetBool("isRunning", false);
+            if (canAttack == true)
+            {
+                animator.SetTrigger("attack");
+            }
+
+        }
+        else
+        {
+            navMeshAgent.isStopped = false; // Возобновляем движение, если расстояние больше stoppingDistance
+            navMeshAgent.SetDestination(player.transform.position);
+            animator.SetBool("isRunning", true);
+        }
+
         if (ScoreManeger.score <= 1000)
         {
             return;
@@ -70,7 +93,7 @@ public class Boss : MonoBehaviour
             dead = true;
             Destroy(capsuleCollider);
             Destroy(navMeshAgent);
-            animator.SetTrigger("dead");
+            animator.SetTrigger("die");
             deathPosition = transform.position; // Сохранение позиции смерти босса
             Vector3 keyDropPosition = deathPosition - Vector3.up; // Позиция, где ключ выпадет ниже босса
             Instantiate(droppedItemPrefab, keyDropPosition, Quaternion.identity); // Создание ключа

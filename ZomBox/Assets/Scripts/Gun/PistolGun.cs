@@ -13,6 +13,13 @@ public class PistolGun : MonoBehaviour
     public Transform barel;
     public ParticleSystem muzleFlash;
 
+
+    public int maxAmmo = 10; // Максимальное количество патронов
+    public int currentAmmo;  // Текущее количество патронов
+
+    public float reloadTime = 2f; // Время перезарядки
+    private bool isReloading = false;
+
     // private float bossDamage = 33; // Фиксированный урон по боссу
     private Dictionary<GameObject, int> hitCountDictionary; // Zombie
 
@@ -23,6 +30,7 @@ public class PistolGun : MonoBehaviour
     {
         interactable = GetComponent<Interactable>();
         hitCountDictionary = new Dictionary<GameObject, int>();
+        currentAmmo = maxAmmo;
     }
 
     private void Update()
@@ -31,6 +39,16 @@ public class PistolGun : MonoBehaviour
         {
             SteamVR_Input_Sources hand = interactable.attachedToHand.handType;
 
+            if (isReloading)
+                return;
+
+            // Пример: Перезарядка при нажатии на кнопку на VR контроллере (допустим, кнопка Trigger)
+            if (Input.GetKeyDown(KeyCode.R) || Input.GetButtonDown("Fire1"))
+            {
+                if (currentAmmo < maxAmmo)
+                    StartCoroutine(Reload());
+            }
+
             if (fireAction[hand].stateDown)
             {
                 Fire();
@@ -38,8 +56,33 @@ public class PistolGun : MonoBehaviour
         }
     }
 
+    IEnumerator Reload()
+    {
+        isReloading = true;
+        Debug.Log("Reloading...");
+
+        // Воспроизводите анимацию перезарядки
+
+        yield return new WaitForSeconds(reloadTime);
+
+        currentAmmo = maxAmmo;
+        isReloading = false;
+    }
+
+
     private void Fire()
     {
+        if (currentAmmo > 0)
+        {
+            // Выстрел, уменьшение количества патронов
+            currentAmmo--;
+            Debug.Log("Shoot! Remaining ammo: " + currentAmmo);
+        }
+        else
+        {
+            Debug.Log("Out of ammo! Reload with R key.");
+        }
+
         muzleFlash.Play();
         audioSource.Play();
         RaycastHit hit;
