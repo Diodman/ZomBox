@@ -6,16 +6,13 @@ using Valve.VR.InteractionSystem;
 
 public class rust_key : MonoBehaviour
 {
-    private bool isPickedUp = false; // Флаг, указывающий, взял ли игрок ключ.
-
-    private void OnTriggerEnter(Collider other)
+    private bool hasKey = false; // Флаг, указывающий, взял ли игрок ключ.
+    public void SetHasKey(bool value)
     {
-        // Проверяем, что игрок подошел к ключу и еще не взял его.
-        if (other.CompareTag("Player") && !isPickedUp)
-        {
-            isPickedUp = true;
-            // Вызываем метод в скрипте SceneSwitcher, чтобы сообщить о взятии ключа.
-            FindObjectOfType<TP>().OnKeyPickedUp();
-        }
+        hasKey = value;
+    }
+    public bool HasKey()
+    {
+        return hasKey;
     }
 }
