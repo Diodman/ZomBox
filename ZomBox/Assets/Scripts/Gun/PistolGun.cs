@@ -12,6 +12,16 @@ public class PistolGun : MonoBehaviour
     public SteamVR_Action_Boolean fireAction;
     public Transform barel;
     public ParticleSystem muzleFlash;
+<<<<<<< Updated upstream
+=======
+    public SteamVR_Action_Boolean relouad;
+
+    public int maxAmmo = 10; // Максимальное количество патронов
+    public int currentAmmo;  // Текущее количество патронов
+
+    public float reloadTime = 2f; // Время перезарядки
+    private bool isReloading = false;
+>>>>>>> Stashed changes
 
     // private float bossDamage = 33; // Фиксированный урон по боссу
     private Dictionary<GameObject, int> hitCountDictionary; // Zombie
@@ -31,6 +41,19 @@ public class PistolGun : MonoBehaviour
         {
             SteamVR_Input_Sources hand = interactable.attachedToHand.handType;
 
+<<<<<<< Updated upstream
+=======
+            if (isReloading)
+                return;
+
+            // Пример: Перезарядка при нажатии на кнопку на VR контроллере (допустим, кнопка Trigger)
+            if (relouad[hand].stateDown)
+            {
+                if (currentAmmo < maxAmmo)
+                    StartCoroutine(Reload());
+            }
+
+>>>>>>> Stashed changes
             if (fireAction[hand].stateDown)
             {
                 Fire();
