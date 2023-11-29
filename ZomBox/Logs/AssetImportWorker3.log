@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox
+C:/Users/OEM/Desktop/GitHub/ZomBox/ZomBox
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53176
-Successfully changed project path to: C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox
-C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox
+51361
+Successfully changed project path to: C:/Users/OEM/Desktop/GitHub/ZomBox/ZomBox
+C:/Users/OEM/Desktop/GitHub/ZomBox/ZomBox
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3084] Host "[IP] 192.168.18.169 [Port] 0 [Flags] 2 [Guid] 1991795391 [EditorId] 1991795391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-430PJJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11068] Host "[IP] 192.168.18.169 [Port] 0 [Flags] 2 [Guid] 454712498 [EditorId] 454712498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-430PJJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3084] Host "[IP] 192.168.18.169 [Port] 0 [Flags] 2 [Guid] 1991795391 [EditorId] 1991795391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-430PJJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11068] Host "[IP] 192.168.18.169 [Port] 0 [Flags] 2 [Guid] 454712498 [EditorId] 454712498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-430PJJ7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 115.60 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 98.79 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/OEM/Documents/GitHub/ZomBox/ZomBox/Assets
+[Subsystems] Discovering subsystems at path C:/Users/OEM/Desktop/GitHub/ZomBox/ZomBox/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,90 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005963 seconds.
+Registered in 0.005544 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.37 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 106.77 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.707 seconds
+- Completed reload, in  0.632 seconds
 Domain Reload Profiling:
-	ReloadAssembly (707ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007776 seconds.
+Registered in 0.006174 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\OEM\Desktop\GitHub\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\OEM\Desktop\GitHub\ZomBox\ZomBox\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 99.00 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1363ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (936ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (408ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4518 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (49.6 KB). Loaded Objects now: 4998.
-Memory consumption went from 176.3 MB to 176.2 MB.
-Total: 3.206300 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.330100 ms MarkObjects: 2.413000 ms  DeleteObjects: 0.110900 ms)
+Unloading 4523 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (48.8 KB). Loaded Objects now: 5005.
+Memory consumption went from 176.8 MB to 176.8 MB.
+Total: 5.430700 ms (FindLiveObjects: 0.400200 ms CreateObjectMapping: 0.278000 ms MarkObjects: 4.632400 ms  DeleteObjects: 0.119500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,634 +164,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1811685.255641 seconds.
-  path: Assets/Bibliotek/Low Poly Guns/Models/Guns/pistol4/pistol4.fbx
-  artifactKey: Guid(ca1c64f7c147fb0479f9ef03e264a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Low Poly Guns/Models/Guns/pistol4/pistol4.fbx using Guid(ca1c64f7c147fb0479f9ef03e264a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aaaef2f2356e6c4d3ececb80c29ea4') in 0.182263 seconds 
+  Time since last request: 597375.645097 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22350c43750242b9d2f68881019dc4a') in 0.055121 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Bibliotek/Old Sea Port/mesh/post_1.fbx
-  artifactKey: Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/mesh/post_1.fbx using Guid(8b50be6bc899b9140ad8ff1a5d587a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc93eb6655b01d172e64202758415e28') in 0.021517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurn.fbx
-  artifactKey: Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurn.fbx using Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eab056509243ba15fb4dce7d444fc5') in 0.022180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bibliotek/Old Sea Port/mesh/hammer.fbx
-  artifactKey: Guid(cfd984fc4f7f10c4eb63402c8dc759a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/mesh/hammer.fbx using Guid(cfd984fc4f7f10c4eb63402c8dc759a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4abf095ed87a6037313ad80d9cce853') in 0.034776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bibliotek/Old Sea Port/mesh/rope_3.fbx
-  artifactKey: Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/mesh/rope_3.fbx using Guid(cb1f6f82cc530a74c940352d001d34d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1417943c8f2ab160ca969119a569b361') in 0.028543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Bibliotek/Katana/Mesh/OBJ/Katana_LODA.obj
-  artifactKey: Guid(3d88c319821b89f4086eb24c6b2faee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Mesh/OBJ/Katana_LODA.obj using Guid(3d88c319821b89f4086eb24c6b2faee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbf81591769ba1a926967d0a0dfb175') in 0.043670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurnSharp.fbx
-  artifactKey: Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/Animation/HumanoidWalkTurnSharp.fbx using Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540d0936e7297b87c0e8d2ca7321675') in 0.023350 seconds 
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default Left Grab Move.preset
+  artifactKey: Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default Left Grab Move.preset using Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81587c027b73cbc414b60ddb0914551c') in 0.026734 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/BuggyBuddy/Lightcone.fbx
-  artifactKey: Guid(43c6bdf072a75974186a41645b0aaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/BuggyBuddy/Lightcone.fbx using Guid(43c6bdf072a75974186a41645b0aaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ff54a80f8dcff34837c02a812513d7') in 0.022137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/Old Sea Port/mesh/brick_wall_1.fbx
-  artifactKey: Guid(5b10a3532c8c3cc4da4dc079804cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/mesh/brick_wall_1.fbx using Guid(5b10a3532c8c3cc4da4dc079804cdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a008948e1360ddb9b292597c9ac97') in 0.029994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Models/MuzzleFlashCone.FBX
-  artifactKey: Guid(75ece0dab22f9a144a1d2f582735de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Models/MuzzleFlashCone.FBX using Guid(75ece0dab22f9a144a1d2f582735de08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac1a82c9d2aa280e5424264704c3f60') in 0.017946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Doors/Models/door.FBX
-  artifactKey: Guid(e6742bcf1c6e53248b7eca542e7c70e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Doors/Models/door.FBX using Guid(e6742bcf1c6e53248b7eca542e7c70e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed918d934d75a79445f1a627cbdac66') in 0.017059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Bibliotek/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx
-  artifactKey: Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx using Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e2aa9d243ecca9ec6a812cbd8efbfa') in 0.023167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/Old Sea Port/mesh/ladder_1.fbx
-  artifactKey: Guid(908cb165db09e6d42a438cfc3af8efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/mesh/ladder_1.fbx using Guid(908cb165db09e6d42a438cfc3af8efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0aafc82a6fcda03bd66348a6db898e') in 0.014491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx
-  artifactKey: Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/JoeJeff/JoeJeffController.fbx using Guid(076d897164a32834791fe9bd812ed21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2eae14f8305fd4afe4dd1916417ced') in 0.056087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.062010 seconds.
-  path: Assets/Bibliotek/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx
-  artifactKey: Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx using Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec0f11f6f51970e541723049aab265') in 0.029355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/Low Poly Guns/Models/Guns/smg1/smg1.fbx
-  artifactKey: Guid(2cf10fa706c7a4d42b5927d8e730f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Low Poly Guns/Models/Guns/smg1/smg1.fbx using Guid(2cf10fa706c7a4d42b5927d8e730f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2b9f78c33fe20085646a4e21162936') in 0.033562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Squishy/Squishy.fbx
-  artifactKey: Guid(7b2f451dc7f3fad4f8b8342970631a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Squishy/Squishy.fbx using Guid(7b2f451dc7f3fad4f8b8342970631a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57916b12c9d884a66418d4bad395ac8d') in 0.137375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/Tim's Assets/Doors/Mesh/TimsAssets_Door.fbx
-  artifactKey: Guid(53fd6f5729dcb094ebf37d4437bf647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Tim's Assets/Doors/Mesh/TimsAssets_Door.fbx using Guid(53fd6f5729dcb094ebf37d4437bf647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfd2c56a71d8a7faaa3f3ecd4f044b7') in 0.272909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Teleport/Models/TeleportDestinationInvalid.fbx
-  artifactKey: Guid(6e0f456570268ff49a58a019080ee045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Teleport/Models/TeleportDestinationInvalid.fbx using Guid(6e0f456570268ff49a58a019080ee045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44573c42dc7f19a1f0b633f8e31a6fe9') in 0.016282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Bibliotek/Low Poly Guns/Models/Guns/sniper2/sniper2.fbx
-  artifactKey: Guid(c8573db8e30e916479a705831bd5040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Low Poly Guns/Models/Guns/sniper2/sniper2.fbx using Guid(c8573db8e30e916479a705831bd5040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5db644629df46a76b521a76be96214f') in 0.024418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/Zombie/FBXs/Zombie2.FBX
-  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a057f55bfd9a6e657e8b848dc13efa') in 0.044502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.597487 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/Foliage.prefab
-  artifactKey: Guid(50165a7e39a936f44ab5b824429e3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/Foliage.prefab using Guid(50165a7e39a936f44ab5b824429e3417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb66d667c981b719f59cd1e53d489b40') in 0.027504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab
-  artifactKey: Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeffController.prefab using Guid(b209c30bc3eb7884781069adc59ed447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e864136e28c6feb620657de5bffb7b') in 0.032256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/Katana/Prefab/Mobile/Katana_LODA.prefab
-  artifactKey: Guid(e22342e3def410440a9a42b2986e8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Prefab/Mobile/Katana_LODA.prefab using Guid(e22342e3def410440a9a42b2986e8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef02393086ff4dc564f914826a9c778') in 0.026996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/Katana/Prefab/PBR/Katana_LODC.prefab
-  artifactKey: Guid(8223671c91016c443a036ff8e0f46e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Prefab/PBR/Katana_LODC.prefab using Guid(8223671c91016c443a036ff8e0f46e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2355e46145a27bdf466d2c592b204b0') in 0.020611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/GlassImpact.prefab
-  artifactKey: Guid(92422eb8369387a41a9a6259935757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/GlassImpact.prefab using Guid(92422eb8369387a41a9a6259935757ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac51269794a4b15b3e470e0c87782a9') in 0.044796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/Katana/Prefab/Specular/Katana_LODB.prefab
-  artifactKey: Guid(367ba0cf70da09a46a3e215991759835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Prefab/Specular/Katana_LODB.prefab using Guid(367ba0cf70da09a46a3e215991759835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd38851f33abaeaef177c04c220ec33') in 0.018461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black.prefab
-  artifactKey: Guid(1630d9b67160caa44aad0385aa9bf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black.prefab using Guid(1630d9b67160caa44aad0385aa9bf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3616f835a9ad5fae149d0fe16fdce540') in 0.029534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/Adventure_Character/Prefabs/Man_01.prefab
-  artifactKey: Guid(ebc4580c7ed532b4cb07171aed640d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Adventure_Character/Prefabs/Man_01.prefab using Guid(ebc4580c7ed532b4cb07171aed640d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7ce1baf669f1a6b7d333738f595cfe') in 0.664443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
-  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4e6adc1df856a88a9036da48e270f0') in 0.008840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab
-  artifactKey: Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Magazine_Black_Full.prefab using Guid(3891d67bd4812e34db02888d6b7ae428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f79abe4ed62a0a525cd8707ec6ab855') in 0.030260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash10.prefab
-  artifactKey: Guid(270e986d1e20843438082183f2324018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash10.prefab using Guid(270e986d1e20843438082183f2324018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9bbb1e4b2f9fc3a49783d9fe71769d') in 0.030045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/ladder_1.prefab
-  artifactKey: Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/ladder_1.prefab using Guid(c5d5f1d29f2e94e45b0022124ff1f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b137eefb817ef9cf8f7e26a8e6c81cda') in 0.027138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash7.prefab
-  artifactKey: Guid(15d0eae3002f3f247b110cd7610d81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash7.prefab using Guid(15d0eae3002f3f247b110cd7610d81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6337406d5050110750a4981c13febe44') in 0.047685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab
-  artifactKey: Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab using Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eaeb2fd9efff8336384c6c779bf11e') in 0.116419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/hammer.prefab
-  artifactKey: Guid(4c5f317e11e66414bba628410251d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/hammer.prefab using Guid(4c5f317e11e66414bba628410251d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516876e6a9eba83dd8e29c3c627083e') in 0.018115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash7.prefab
-  artifactKey: Guid(a7730127594a3ad46a512f70521a6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash7.prefab using Guid(a7730127594a3ad46a512f70521a6446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3dbd9a07452011b8e0358f4be86ee2') in 0.019672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash4.prefab
-  artifactKey: Guid(54c6cbb0345b562429527ec1b4f6cb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash4.prefab using Guid(54c6cbb0345b562429527ec1b4f6cb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ace35bb0000376e8f35649d966791e') in 0.018608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowOutline.prefab
-  artifactKey: Guid(b9d299b8c6aa86242bec9a060f7e2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/LongbowOutline.prefab using Guid(b9d299b8c6aa86242bec9a060f7e2d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3db3539a5253799627018abbb48ce92') in 0.020912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab
-  artifactKey: Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/JoeJeff.prefab using Guid(48530aab98abaa541acf2cf3f3f06d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2387b60968382df9068d6c43338a1f') in 0.130304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/GlassImpact.prefab
-  artifactKey: Guid(93983eaa39ee5d4408c0b10200e234b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/GlassImpact.prefab using Guid(93983eaa39ee5d4408c0b10200e234b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db43f3641be50af0d8071d25bc31dbec') in 0.019078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/Longbow.prefab
-  artifactKey: Guid(f1f5f898fbfdb80478825ce9b01fe8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/Longbow.prefab using Guid(f1f5f898fbfdb80478825ce9b01fe8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a74a11a82c51849e83f13ba53f01ff5') in 0.070044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash9.prefab
-  artifactKey: Guid(786cb9a325437bf499d743177d3f3cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash9.prefab using Guid(786cb9a325437bf499d743177d3f3cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18024bcdbe820d76e8c9513ea8181c4b') in 0.025085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash6.prefab
-  artifactKey: Guid(1f6cd59b6cb9b30479cb9701829d3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash6.prefab using Guid(1f6cd59b6cb9b30479cb9701829d3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae34600af52de10aa6b7eeeae8355741') in 0.023162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/Old Sea Port_Tree.prefab
-  artifactKey: Guid(060de24b039008143aa190133e1fb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/Old Sea Port_Tree.prefab using Guid(060de24b039008143aa190133e1fb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee09ce33ed3aefe4005c4b10da9ec0e') in 0.017620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash2.prefab
-  artifactKey: Guid(4e20780f83b08084f9f9435e4b48bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash2.prefab using Guid(4e20780f83b08084f9f9435e4b48bac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6202b7e2339b7fbf182603ebe14d5fe5') in 0.025568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/Katana/Prefab/Specular/Katana_LODA.prefab
-  artifactKey: Guid(6c9dce45f94fc294eb0d58110cb7b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Prefab/Specular/Katana_LODA.prefab using Guid(6c9dce45f94fc294eb0d58110cb7b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ecd80e21c3bb9de111e2a9b1d9c21') in 0.021610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash1.prefab
-  artifactKey: Guid(1f389bb139e76154582cf3c5e4f9214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/MuzzleFlash1.prefab using Guid(1f389bb139e76154582cf3c5e4f9214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789b9362068b84e454378352e467c2a8') in 0.020321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash8.prefab
-  artifactKey: Guid(5cdf043766019ab49a66cea4cfdc047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash8.prefab using Guid(5cdf043766019ab49a66cea4cfdc047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c7ec2b776eea4c9a1f22156807efe8') in 0.019635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash5.prefab
-  artifactKey: Guid(9817249ba0956464da55ce1de9ae9c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/MuzzleFlashes/Mobile/MuzzleFlash5.prefab using Guid(9817249ba0956464da55ce1de9ae9c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb7c7a56df08010e53523d3db581729') in 0.021316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Bibliotek/Katana/Prefab/PBR/Katana_LODA.prefab
-  artifactKey: Guid(a8a95b589c673c247b4fec182cfe30f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Katana/Prefab/PBR/Katana_LODA.prefab using Guid(a8a95b589c673c247b4fec182cfe30f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa755b85ccbafae3a41f64f61b5b42') in 0.020118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Bibliotek/Adventure_Character/Prefabs/Man_03.prefab
-  artifactKey: Guid(da1203547328fdb41974e0b5334e799a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Adventure_Character/Prefabs/Man_03.prefab using Guid(da1203547328fdb41974e0b5334e799a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009ee97db9f615d43315541c83456667') in 0.132482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.128369 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/dock_1.prefab
-  artifactKey: Guid(c8dbbd17831aecb419cf9f688e85e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/dock_1.prefab using Guid(c8dbbd17831aecb419cf9f688e85e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7e8e42beb68c5b801ac6392ec83af8') in 0.026860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/fence_gate.prefab
-  artifactKey: Guid(5cd829d670d42cf458be57a99ad05bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/fence_gate.prefab using Guid(5cd829d670d42cf458be57a99ad05bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f0c01990ebc641347e6bdf5bc0e56') in 0.025799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/building_segment_6.prefab
-  artifactKey: Guid(7d609f7b85b8b834c967c9708aa167ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/building_segment_6.prefab using Guid(7d609f7b85b8b834c967c9708aa167ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6507aa102a71db736bb6c9c2d1654d5') in 0.017369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/ConcreteImpact.prefab
-  artifactKey: Guid(e4ed01af280d76248a9d0e72030c40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/ConcreteImpact.prefab using Guid(e4ed01af280d76248a9d0e72030c40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14729ea3a18aaa20a08a625ffcd04610') in 0.028991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/circular_table.prefab
-  artifactKey: Guid(31a710b3bcdfb2e48b5ba67995778c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/circular_table.prefab using Guid(31a710b3bcdfb2e48b5ba67995778c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8737d72d9ae1bc01fd8df5de1dc3403e') in 0.021213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/building_segment_4.prefab
-  artifactKey: Guid(94de232499f0e2344a01df0f4013ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/building_segment_4.prefab using Guid(94de232499f0e2344a01df0f4013ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50615b211419f39f41c9f115b5edab2') in 0.020332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/dock_2.prefab
-  artifactKey: Guid(60a7c2536ae44384a9181dd65cb6d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/dock_2.prefab using Guid(60a7c2536ae44384a9181dd65cb6d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c749cc424091c112ead47213ff28fe4') in 0.028591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/FireWhip.prefab
-  artifactKey: Guid(daf28736fcb032a44b7a5c1fd0a27b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Longbow/Prefabs/FireWhip.prefab using Guid(daf28736fcb032a44b7a5c1fd0a27b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511bf2abe3251ab56f3c0366e2a8a890') in 0.014178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/brick_wall_1.prefab
-  artifactKey: Guid(ad8fe0235a8670d4c83f451033ac0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/brick_wall_1.prefab using Guid(ad8fe0235a8670d4c83f451033ac0a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f425e42c083823ca940c6e69261d0f') in 0.016191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/brick_column_1.prefab
-  artifactKey: Guid(4154bf6e40fe42543a525d9b4fbc965f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/brick_column_1.prefab using Guid(4154bf6e40fe42543a525d9b4fbc965f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f56e7446b60980f82be3310f6f25af7') in 0.021477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Doors/Prefabs/door_frame.prefab
-  artifactKey: Guid(e5860c25af9af8b49bd5df070e4c9ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Doors/Prefabs/door_frame.prefab using Guid(e5860c25af9af8b49bd5df070e4c9ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e404e66dc7b318f12e260431ea607f8') in 0.024394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/BrickImpact.prefab
-  artifactKey: Guid(e70de6a15623744499bf326c13e310f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/BrickImpact.prefab using Guid(e70de6a15623744499bf326c13e310f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909df30c09c3edc848c7f8ec273595b2') in 0.022111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/bottle.prefab
-  artifactKey: Guid(67833d6ba7c887d48933b3682ee1df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/bottle.prefab using Guid(67833d6ba7c887d48933b3682ee1df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b941e3bd54040df17cb1efb2dc4461a') in 0.012604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/Buggy.prefab
-  artifactKey: Guid(1e914d8e31fa95b488c87df17e68d504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/Buggy.prefab using Guid(1e914d8e31fa95b488c87df17e68d504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbc9ef027a5dd9d782e0a76c5601f09') in 0.069319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
-  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932464b63772a04cf26cf7e3d8737add') in 0.016866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Bibliotek/SteamVR/Prefabs/controller.prefab
-  artifactKey: Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/Prefabs/controller.prefab using Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f4d5f895c0dc8a40dbf4f3df2612d6') in 0.012758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.786130 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/Rain.prefab
-  artifactKey: Guid(fed5f9582b6829c43a0d1459a97de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/Rain.prefab using Guid(fed5f9582b6829c43a0d1459a97de74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63171180ea20743d2e5c1a32dd2a684') in 0.015786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.280113 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/rope_3.prefab
-  artifactKey: Guid(72281b9d1ce3f3e4da8ab92b2d502470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/rope_3.prefab using Guid(72281b9d1ce3f3e4da8ab92b2d502470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754a928ee9f3c22889ba5f3835a04c82') in 0.012614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/stairs_wood_spiral.prefab
-  artifactKey: Guid(8f2ca0f54f293944f98bea8d9cdb2ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/stairs_wood_spiral.prefab using Guid(8f2ca0f54f293944f98bea8d9cdb2ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c201a60dd3ec201feedcca6646ca2b5') in 0.023563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bibliotek/SteamVR/Resources/SteamVR_ExternalCamera.prefab
-  artifactKey: Guid(6b259143c09ffc447ad059e5b8d8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/Resources/SteamVR_ExternalCamera.prefab using Guid(6b259143c09ffc447ad059e5b8d8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cd6744922057723b4796ef484bc48e') in 0.008935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Models/Table_Round.prefab
-  artifactKey: Guid(e7af05fa230061c4da07e8ceda602506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Models/Table_Round.prefab using Guid(e7af05fa230061c4da07e8ceda602506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c16db03c18f6ecba587a0b9066c62a2') in 0.019947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/TargetHitEffect.prefab
-  artifactKey: Guid(ada35c93b68ad004d9b4e7bd686cf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/TargetHitEffect.prefab using Guid(ada35c93b68ad004d9b4e7bd686cf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f91ed314da21ff82af6eaa03b35aaa3') in 0.025469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Bibliotek/Old Sea Port/prefabs/tower_extension.prefab
-  artifactKey: Guid(6ced61b88da889a4db169a27d5f9f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/prefabs/tower_extension.prefab using Guid(6ced61b88da889a4db169a27d5f9f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b793c9cff397a93bae69b4bed9246b53') in 0.016160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Bibliotek/SteamVR/Prefabs/vr_hand_alien_left.prefab
-  artifactKey: Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/Prefabs/vr_hand_alien_left.prefab using Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected(Object, Vector3&, Quaternion&)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview(Object)
-UnityEditor.PreviewData:UpdateGameObject(Object)
-UnityEditor.PreviewData:.ctor(Object)
-UnityEditor.GameObjectInspector:GetPreviewData()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '9ab0b14dff774a5dcfde8c7a61c412a0') in 0.031793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Models/Wall.prefab
-  artifactKey: Guid(4f8a76d2be4d1cb40a9aa32921fcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Models/Wall.prefab using Guid(4f8a76d2be4d1cb40a9aa32921fcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069a154ba5ad9ee2158c3c12a0d47f3') in 0.020098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab
-  artifactKey: Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/Wood.prefab using Guid(b6d38b5165f9b6e49a8402118b5237a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bbc38ea20c2bbcf329c391d6a741f8') in 0.026884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Bibliotek/SteamVR/Prefabs/vr_hand_floppy_right.prefab
-  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitializeCopy (System.String newActionPath, Valve.VR.SteamVR_Action_Source_Map newData) [0x00007] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:207 
-  at Valve.VR.SteamVR_Action.GetCopy[CreateType] () [0x0000c] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:326 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionSetName, System.String actionName, System.Boolean caseSensitive, System.Boolean returnNulls) [0x00012] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:634 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionName, System.Boolean caseSensitive) [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:715 
-  at Valve.VR.InteractionSystem.Sample.FloppyHand..ctor () [0x0000b] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\InteractionSystem\Samples\Scripts\FloppyHand.cs:12 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Action.cs Line: 207)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitializeCopy (System.String newActionPath, Valve.VR.SteamVR_Action_Source_Map newData) [0x00007] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:207 
-  at Valve.VR.SteamVR_Action.GetCopy[CreateType] () [0x0000c] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:326 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionSetName, System.String actionName, System.Boolean caseSensitive, System.Boolean returnNulls) [0x00012] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:634 
-  at Valve.VR.SteamVR_Input.GetAction[T] (System.String actionName, System.Boolean caseSensitive) [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:715 
-  at Valve.VR.InteractionSystem.Sample.FloppyHand..ctor () [0x0000b] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\InteractionSystem\Samples\Scripts\FloppyHand.cs:12 
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected(Object, Vector3&, Quaternion&)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview(Object)
-UnityEditor.PreviewData:UpdateGameObject(Object)
-UnityEditor.PreviewData:.ctor(Object)
-UnityEditor.GameObjectInspector:GetPreviewData()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Action.cs Line: 207)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected(Object, Vector3&, Quaternion&)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview(Object)
-UnityEditor.PreviewData:UpdateGameObject(Object)
-UnityEditor.PreviewData:.ctor(Object)
-UnityEditor.GameObjectInspector:GetPreviewData()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected(Object, Vector3&, Quaternion&)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents(Object, Vector3, Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview(Object)
-UnityEditor.PreviewData:UpdateGameObject(Object)
-UnityEditor.PreviewData:.ctor(Object)
-UnityEditor.GameObjectInspector:GetPreviewData()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: '9bdc21f0216ee96fdb9842f7c9651b5c') in 0.027374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab
-  artifactKey: Guid(b3310980331fa134d82770127f640471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Old Sea Port/EffectExamples/Shared/Prefabs/WaterFilled.prefab using Guid(b3310980331fa134d82770127f640471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cb66c4919124c88d69cff946f08cb') in 0.020754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Bibliotek/Zombie/Prefabs/Zombie3.prefab
-  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bb608643a2d38b86cf28984ddef8e7') in 0.099763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab
-  artifactKey: Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bibliotek/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab using Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
-InvalidCastException: Specified cast is not valid.
-  at (wrapper castclass) System.Object.__castclass_with_cache(object,intptr,intptr)
-  at Valve.VR.SteamVR_Input.GetActionDataFromPath[T] (System.String path, System.Boolean caseSensitive) [0x00011] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Input.cs:452 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].Initialize (System.Boolean createNew, System.Boolean throwErrors) [0x00024] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:172 
-  at Valve.VR.SteamVR_Action`2[SourceMap,SourceElement].InitAfterDeserialize () [0x00059] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action.cs:228 
-  at Valve.VR.SteamVR_Action_Single.UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize () [0x00000] in C:\Users\OEM\Documents\GitHub\ZomBox\ZomBox\Assets\Bibliotek\SteamVR\Input\SteamVR_Action_Single.cs:181 
-
-(Filename: Assets/Bibliotek/SteamVR/Input/SteamVR_Input.cs Line: 452)
-
- -> (artifact id: 'eac2545d8b69c95e969b8feac4a3e2b4') in 0.046446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WoodImpact.prefab
-  artifactKey: Guid(4fbc0156e9dd2ab41a17e56a2f515d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musor/KriptoFX/MuzzleFlashes/Prefab/Impacts/Mobile/WoodImpact.prefab using Guid(4fbc0156e9dd2ab41a17e56a2f515d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10754081241ffb8a0fe5d471a4b0c16') in 0.083137 seconds 
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default XR UI Input Module.preset
+  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde9c0c18a128fcc51e56ec4aa844a47') in 0.010793 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

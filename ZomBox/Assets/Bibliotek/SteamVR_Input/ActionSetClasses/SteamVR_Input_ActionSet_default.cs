@@ -73,7 +73,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean Squeeze
+        public virtual SteamVR_Action_Single Squeeze
         {
             get
             {
@@ -105,11 +105,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean Xvat
+        public virtual SteamVR_Action_Boolean X
         {
             get
             {
-                return SteamVR_Actions.default_Xvat;
+                return SteamVR_Actions.default_X;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Y
+        {
+            get
+            {
+                return SteamVR_Actions.default_Y;
             }
         }
         
