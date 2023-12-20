@@ -8,12 +8,13 @@ using UnityEngine.InputSystem;
 
 public class Pause : MonoBehaviour
 {
-    public Transform playerCamera;
+    public Camera playerCamera;
     public GameObject Record;
     public GameObject HP;
     public GameObject Pointer;
     public GameObject canvasObject;
-    public float distance = 5;
+    private Transform player;
+    public float distance;
 
 
     // Update is called once per frame
@@ -41,6 +42,7 @@ public class Pause : MonoBehaviour
 
     private void TogglePause()
     {
+        canvasObject.SetActive(!canvasObject.activeSelf);
         isPaused = !isPaused;
         if (isPaused)
         {
